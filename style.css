@@ -1,0 +1,72 @@
+.window{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.window-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 50%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.main-btn{
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+.main-btn span{
+    margin: 6px;
+    font-size: 15px;
+}
+
+
+.h2-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}
+.green-background {
+    background-color: red;
+}
+  
+.red-background {
+    background-color: green;
+} 
+.btn-green{
+    background-color: green;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+.btn-red{
+    background-color: red;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 13px;
+}
